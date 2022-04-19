@@ -4,8 +4,7 @@
             "name": "Target 1",
             "includePath": [
                 "D:\\Program\\Keil\\C51\\INC",
-                "e:\\C51\\12C5A60S2\\FinalUARTClock",
-                "D:/Program/Keil/C51/INC/STC"
+                "e:\\C51\\12C5A60S2\\FinalUARTClock"
             ],
             "defines": [
                 "__C51__",

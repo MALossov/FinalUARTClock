@@ -1,0 +1,28 @@
+ *.bak   
+ *.ddk   
+ *.edk   
+ *.lst   
+ *.mpf   
+ *.mpj   
+ *.obj   
+ *.omf   
+ *.plg   
+ *.rpt   
+ *.tmp   
+ *.crf   
+ *.o   
+ *.d   
+ *.axf   
+ *.tra   
+ *.dep              
+
+ *.iex   
+ *.htm   
+ *.map   
+
+ *.whsj2   
+ *.SYNWIT_Lik   
+ *.whsj2   
+ *.scvd   
+
+.vscode/
