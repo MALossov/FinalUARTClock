@@ -1,0 +1,79 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              04/19/2022 09:14:41 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\Program\Keil\C51\BIN\C51.EXE main.c LARGE OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Li
+                    -stings\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          /*
+   2           * @Description:
+   3           * @Author: MALossov
+   4           * @Date: 2022-04-12 21:21:27
+   5           * @LastEditTime: 2022-04-19 01:28:27
+   6           * @LastEditors: MALossov
+   7           * @Reference:
+   8           */
+   9          
+  10          #include "KeyScan.h"
+  11          #include "Uart.h"
+  12          #include "LCD1602.h"
+  13          #include "Functions.h"
+  14          #include "Timer.h"
+  15          #include "DS1302.h"
+  16          
+  17          
+  18          uchar ctrBit, ctrBitFlg;
+  19          
+  20          void main() {
+  21   1          led = 1;
+  22   1          ctrBitFlg = 0;
+  23   1      
+  24   1          UartInit();
+  25   1          InitLcd1602(); //初始化液晶屏
+  26   1          DelayMs(10);//延时用于稳定，可以去掉
+  27   1      
+  28   1          PutChar('H');
+  29   1          prints("ello World!\r\n");
+  30   1          
+  31   1          Begin_Clock();
+  32   1      
+  33   1          while (1)
+  34   1          {
+  35   2              if (ctrBitFlg) {
+  36   3                ctrBitFlg=0;
+  37   3                  switch (ctrBit)
+  38   3                  {
+  39   4                  case '0':
+  40   4                      Begin_Clock();
+  41   4                      break;
+  42   4                  case '1':
+  43   4                      Begin_jsq();
+  44   4                      break;
+  45   4                  case '2':
+  46   4                      Begin_MB();
+  47   4                      break;
+  48   4                  }
+  49   3              }
+  50   2              prints("Mode Quited!");
+  51   2          }
+  52   1      
+  53   1      }
+
+C51 COMPILER V9.60.0.0   MAIN                                                              04/19/2022 09:14:41 PAGE 2   
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   3393    ----
+   CONSTANT SIZE    =    136    ----
+   XDATA SIZE       =    141      42
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

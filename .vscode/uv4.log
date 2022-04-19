@@ -1,0 +1,62 @@
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+D:\Program\Keil\C51\Inc\reg52.h(13): error C231: 'P0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(14): error C231: 'P1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(15): error C231: 'P2': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(16): error C231: 'P3': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(17): error C231: 'PSW': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(18): error C231: 'ACC': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(19): error C231: 'B': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(20): error C231: 'SP': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(21): error C231: 'DPL': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(22): error C231: 'DPH': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(23): error C231: 'PCON': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(24): error C231: 'TCON': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(25): error C231: 'TMOD': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(26): error C231: 'TL0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(27): error C231: 'TL1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(28): error C231: 'TH0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(29): error C231: 'TH1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(30): error C231: 'IE': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(31): error C231: 'IP': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(32): error C231: 'SCON': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(33): error C231: 'SBUF': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(45): error C231: 'CY': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(46): error C231: 'AC': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(47): error C231: 'F0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(48): error C231: 'RS1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(49): error C231: 'RS0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(50): error C231: 'OV': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(51): error C231: 'P': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(54): error C231: 'TF1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(55): error C231: 'TR1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(56): error C231: 'TF0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(57): error C231: 'TR0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(58): error C231: 'IE1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(59): error C231: 'IT1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(60): error C231: 'IE0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(61): error C231: 'IT0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(64): error C231: 'EA': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(66): error C231: 'ES': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(67): error C231: 'ET1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(68): error C231: 'EX1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(69): error C231: 'ET0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(70): error C231: 'EX0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(74): error C231: 'PS': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(75): error C231: 'PT1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(76): error C231: 'PX1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(77): error C231: 'PT0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(78): error C231: 'PX0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(91): error C231: 'SM0': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(92): error C231: 'SM1': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(93): error C231: 'SM2': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(94): error C231: 'REN': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(95): error C231: 'TB8': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(96): error C231: 'RB8': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(97): error C231: 'TI': redefinition
+D:\Program\Keil\C51\Inc\reg52.h(98): error C231: 'RI': redefinition
+LCD1602.h(10): error C141: syntax error near 'unsigned', expected 'hdata'
+LCD1602.h(14): error C141: syntax error near 'unsigned', expected 'hdata'
+Target not created.
+Build Time Elapsed:  00:00:01

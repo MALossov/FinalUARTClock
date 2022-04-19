@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "D:\\Program\\Keil\\C51\\INC",
+                "e:\\C51\\12C5A60S2\\FinalUARTClock",
+                "D:/Program/Keil/C51/INC/STC"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

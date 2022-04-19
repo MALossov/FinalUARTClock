@@ -1,0 +1,5 @@
+".\Objects\STARTUP.obj",
+".\Objects\LCD1602.obj",
+".\Objects\main.obj" 
+TO ".\Objects\FinalUartClock" 
+PRINT(".\Listings\FinalUartClock.m51") RAMSIZE(256) 
